@@ -69,7 +69,37 @@
 
 
 
-const size=15;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const size=13;
 let timer=0;
 let interval;
 let undoStack=[];
@@ -90,38 +120,22 @@ function x(s,k){
     return r;
 }
 
-/* ===== ENCRYPTED SOLUTION ===== */
 
-const p1="W1sxLDEsMSwwLDAsMSwxLDEsMCwx";
-const p2="LDEsMCwxLDEsMV0sWzEsMSwwLDEs";
-const p3="MSwxLDAsMSwxLDEsMCwxLDEsMCwx";
-const p4="XSxbMSwxLDEsMCwxLDEsMSwwLDEs";
-const p5="MSwxLDAsMCwxLDFdLFswLDEsMSwx";
-const p6="LDEsMCwxLDEsMCwxLDEsMSwxLDAs";
-const p7="MV0sWzEsMSwxLDAsMCwxLDEsMSwx";
-const p8="LDAsMSwxLDEsMSwwXSxbMSwwLDEs";
-const p9="MSwxLDEsMCwwLDEsMSwxLDEsMCwx";
-const p10="LDFdLFsxLDEsMSwwLDEsMSwxLDEs";
-const p11="MCwxLDEsMSwwLDAsMV0sWzAsMSwx";
-const p12="LDEsMSwxLDAsMSwxLDEsMCwxLDEs";
-const p13="MSwxXSxbMSwxLDAsMSwxLDEsMSww";
-const p14="LDEsMSwxLDEsMCwxLDBdLFsxLDEs";
-const p15="MSwwLDAsMSwxLDEsMCwxLDEsMSwx";
-const p16="LDAsMV0sWzEsMCwxLDEsMSwxLDAs";
-const p17="MSwxLDEsMSwwLDAsMSwxXSxbMSwx";
-const p18="LDEsMCwxLDEsMSwwLDEsMSwxLDEs";
-const p19="MCwwLDBdLFswLDEsMSwxLDEsMCwx";
-const p20="LDEsMSwwLDAsMSwxLDEsMV0sWzEs";
-const p21="MSwwLDEsMSwxLDAsMCwxLDEsMSwx";
-const p22="LDAsMSwxXSxbMSwxLDEsMCwwLDEs";
-const p23="MSwxLDEsMCwxLDEsMSwwLDFdXQ==";
+/* ===== ENCRYPTED SOLUTION (13x13) ===== */
 
-const solution=JSON.parse(d(
-p1+p2+p3+p4+p5+p6+p7+p8+p9+p10+
-p11+p12+p13+p14+p15+p16+p17+
-p18+p19+p20+p21+p22+p23
+const p1="W1sxLDEsMSwxLDEsMSwwLDEsMCwxLDAsMSwxXSxbMCwxLDEsMCwxLDAs";
+const p2="MSwxLDAsMSwxLDAsMV0sWzEsMSwwLDEsMCwxLDAsMSwxLDAsMSwwLDBd";
+const p3="LFswLDEsMCwxLDEsMCwxLDAsMSwxLDAsMSwxXSxbMSwwLDEsMCwxLDEs";
+const p4="MCwxLDAsMSwxLDAsMF0sWzAsMSwxLDAsMSwwLDEsMSwwLDEsMCwxLDFd";
+const p5="LFsxLDAsMSwxLDAsMSwwLDEsMSwwLDEsMCwwXSxbMCwxLDAsMSwxLDAs";
+const p6="MSwwLDEsMSwwLDEsMV0sWzEsMSwxLDEsMSwxLDEsMCwxLDAsMSwwLDFd";
+const p7="LFswLDEsMSwwLDEsMCwxLDEsMCwxLDAsMSwwXSxbMSwwLDEsMSwwLDEs";
+const p8="MCwxLDEsMCwxLDAsMV0sWzAsMSwwLDEsMSwwLDEsMCwxLDEsMSwxLDBd";
+const p9="LFsxLDAsMSwwLDEsMSwwLDEsMCwxLDEsMCwxXV0=";
+
+const solution = JSON.parse(d(
+p1+p2+p3+p4+p5+p6+p7+p8+p9
 ));
-
 /* ===== CLUE GENERATOR ===== */
 
 function generateClues(line){
@@ -368,7 +382,7 @@ function submitPuzzle(){
 
 }
 
-/* ===== ENCRYPTED FIXED CODE ===== */
+/* ===== ENCRYPTED FIXED CODE (UNCHANGED) ===== */
 
 function generateCode(){
 
